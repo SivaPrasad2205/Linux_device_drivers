@@ -1,5 +1,5 @@
 # Name of your module
-obj-m += static_driver1.o
+obj-m += dynamic_driver.o
 
 # Kernel build directory (current system)
 KDIR := /lib/modules/$(shell uname -r)/build
